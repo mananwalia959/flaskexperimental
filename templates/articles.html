@@ -1,0 +1,13 @@
+{%extends 'template.html'%}
+{%block body%}
+
+<div class = content>
+<ul>
+{% for item in dummy  %}
+<li> {{item.title}}</li>
+{%endfor%}
+
+</div>
+</ul>
+
+{%endblock%}
